@@ -1,7 +1,11 @@
 import "./App.css";
 
+export function Square() {
+  return <button className="square">X</button>;
+}
+
 function App() {
-  return <>hello world</>;
+  return <Square />;
 }
 
 export default App;
