@@ -88,3 +88,15 @@ body {
 .game-info {
   margin-left: 20px;
 }
+
+.parent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.parent .square {
+  flex: 1 0 23%;
+  margin: 5px;
+  height: 100px;
+  background-color: blue;
+}
