@@ -82,7 +82,7 @@ body {
 }
 .game {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
 .game-info {
